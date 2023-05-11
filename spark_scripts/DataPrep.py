@@ -5,8 +5,8 @@ from pyspark.sql.types import StructType, StructField, IntegerType, StringType, 
 
 if __name__ == "__main__":
     
-    input_path = "/home/pratikkakadiya18/proj/raw_data/Airline_Delay_Cause.csv"
-    output_path = "/home/pratikkakadiya18/proj/spark_output/ada_pq"
+    input_path = "/home/user/proj/raw_data/Airline_Delay_Cause.csv" # Path of input CSV
+    output_path = "/home/user/proj/spark_output/ada_pq" # Path to store CSV
 
     spark = SparkSession \
         .builder \

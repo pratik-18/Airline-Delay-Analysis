@@ -16,10 +16,10 @@ dag_info = {
 }
 
 command_infos = {
-    'spark_master' : 'spark://ada-vm.us-west4-b.c.airline-delay-analysis-proj.internal:7077',
-    'spark_script' : '/home/pratikkakadiya18/proj/spark_scripts/DataPrep.py',
-    'shell_script' : '/home/pratikkakadiya18/proj/bash_script/copy_pq_local_to_gcs.sh',
-    'spark_op' : '/home/pratikkakadiya18/proj/spark_output/ada_pq'
+    'spark_master' : 'spark://*.airline-delay-analysis-proj.internal:7077', # Spark master URI
+    'spark_script' : '/home/user/proj/spark_scripts/DataPrep.py', # Path of Spark Script
+    'shell_script' : '/home/user/proj/bash_script/copy_pq_local_to_gcs.sh', # Path of Shell Script
+    'spark_op' : '/home/user/proj/spark_output/ada_pq' # Path of the folder where Spark output should be stored
 }
 
 
