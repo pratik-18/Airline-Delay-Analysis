@@ -26,7 +26,7 @@ The Airline Data Analysis Project aims to provide insights into airline data, he
 
 ![Untitled](https://github.com/pratik-18/Airline-Delay-Analysis/blob/main/images/System_Design.jpeg)
 
-Let’s look in detail at how everything works together: [Click here](...)  👈
+Let’s look in detail at how everything works together: [Click here](https://github.com/pratik-18/Airline-Delay-Analysis/blob/main/DetailedExplanation.md)  👈
 
 ### Installation:
 
